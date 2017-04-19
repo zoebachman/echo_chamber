@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>echo chamber</title>
+
+	<style type="text/css">
+
+	body {
+		max-width: 600px;
+		/*margin: 10em auto;*/
+		
+		background-color: #33ccff;
+		color: white;
+		font-family: arial;
+		font-style: italic;
+	}
+
+	#long {
+	font-size: 100px;
+/*	max-width: 600px;
+	overflow-x: wrap;*/
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    position: absolute;
+    top: 0;
+}
+
+#short {
+	font-size: 300px;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    position: absolute;
+    top: 0;
+    line-height: 1px;
+}
+
+	</style>
+</head>
+<body>
+	<p id="long">{{ random_trend_long }}</p>
+	<p id= "short">{{ random_trend_short }}</p>
+	<!-- <p> {{ string }} </p> -->
+
+</body>
+</html>
